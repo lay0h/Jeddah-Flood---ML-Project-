@@ -1,0 +1,11 @@
+file,column,missing,pct,pct_flooded,pct_dry
+main,slope_deg,55,0.14,0.1,0.17
+main,twi,55,0.14,0.1,0.17
+main,hand_m,738,1.84,2.44,1.24
+main,hand_ref_is_sea,738,1.84,2.44,1.24
+main,s2_water_confirmed,8179,20.42,25.05,15.79
+matched,slope_deg,473,1.32,0.1,2.86
+matched,twi,473,1.32,0.1,2.86
+matched,hand_m,1034,2.88,2.44,3.45
+matched,hand_ref_is_sea,1034,2.88,2.44,3.45
+matched,s2_water_confirmed,9922,27.68,25.05,31.01
