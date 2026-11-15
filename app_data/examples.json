@@ -1,0 +1,54 @@
+{
+  "Southern coastal flats": {
+    "elevation_m": 0.283,
+    "slope_deg": 0.558,
+    "flowacc_km2": 0.008,
+    "twi": 10.229,
+    "hand_m": 0.0,
+    "dist_to_coast_m": 1225.6,
+    "dist_to_ref_water_m": 749.466,
+    "landcover_name": "bare_sparse",
+    "lat": 21.3373,
+    "lon": 39.1478,
+    "seen_flooded_2022": 1
+  },
+  "North of Obhur": {
+    "elevation_m": 0.662,
+    "slope_deg": 0.134,
+    "flowacc_km2": 0.011,
+    "twi": 11.947,
+    "hand_m": 0.0,
+    "dist_to_coast_m": 5436.96,
+    "dist_to_ref_water_m": 743.034,
+    "landcover_name": "bare_sparse",
+    "lat": 21.8087,
+    "lon": 39.0934,
+    "seen_flooded_2022": 1
+  },
+  "Inland high ground": {
+    "elevation_m": 85.814,
+    "slope_deg": 0.399,
+    "flowacc_km2": 0.001,
+    "twi": 8.369,
+    "hand_m": 1.025,
+    "dist_to_coast_m": 17966.9,
+    "dist_to_ref_water_m": 16901.6,
+    "landcover_name": "bare_sparse",
+    "lat": 21.6683,
+    "lon": 39.2833,
+    "seen_flooded_2022": 0
+  },
+  "Inside the city": {
+    "elevation_m": 9.259,
+    "slope_deg": 2.718,
+    "flowacc_km2": 0.001,
+    "twi": 6.449,
+    "hand_m": 1.108,
+    "dist_to_coast_m": 3924.5,
+    "dist_to_ref_water_m": 3848.32,
+    "landcover_name": "built_up",
+    "lat": 21.3391,
+    "lon": 39.1958,
+    "seen_flooded_2022": 0
+  }
+}
