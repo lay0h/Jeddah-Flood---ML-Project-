@@ -1,3 +1,23 @@
+## Live Demo
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP.streamlit.app)
+
+**Try the app:** https://jeddah-flood.streamlit.app/
+
+The app lets you:
+- play a guessing game against the model,
+- build a piece of land and see its flood susceptibility,
+- explore a 3D storm map of Jeddah.
+
+> The model gives a *relative* flood-susceptibility score for open-land cells, based on where satellite radar detected water after two storms (2017 and 2022). It is not a real-time warning system and it does not predict water depth.
+
+If the app is asleep, click **"Yes, get this app back up!"** and wait about a minute.
+
+### Run locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 # The Saudi Water Paradox: Flood Susceptibility Prediction (Jeddah)
 
 **Final notebook: `jeddah_flood_final.ipynb`.** It runs the full workflow: loading the raw data, EDA, cleaning, machine learning and the final model.
@@ -23,10 +43,3 @@ jupyter notebook jeddah_flood_final.ipynb   # about 8-10 minutes
 ```
 
 The model was saved with scikit-learn 1.9.1. With another version, re-run the notebook to rebuild it.
-
-## Web app
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-To put it online for free: push this folder to GitHub, go to https://share.streamlit.io, choose the repository and set the main file to `app.py`.
