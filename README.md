@@ -5,9 +5,7 @@
 | Folder / file | Content |
 |---|---|
 | `jeddah_flood_final.ipynb` | final notebook (Part 1: EDA, Part 2: machine learning) |
-| `data/raw/` | raw datasets (`jeddah_flood_ml.csv`, `jeddah_flood_ml_elev_matched.csv`) |
 | `data/processed/` | cleaned data and feature sets (created by the notebook) |
-| `notebooks/02_eda.ipynb`, `notebooks/03_machine_learning.ipynb` | the two parts as separate notebooks |
 | `src/preprocessing.py` | preprocessing helpers (created by the EDA part) |
 | `app.py` | Streamlit web app: a guessing game against the model, a land builder and a 3D storm map |
 | `app_data/`, `scripts/make_app_data.py` | small files for the app (map points, game squares, examples) and the script that makes them |
