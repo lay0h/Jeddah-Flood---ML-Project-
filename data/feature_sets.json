@@ -1,0 +1,57 @@
+{
+  "feature_sets": {
+    "elevation_only": [
+      "elevation_m"
+    ],
+    "terrain": [
+      "elevation_m",
+      "slope_deg",
+      "flowacc_log10",
+      "twi",
+      "hand_log1p",
+      "dist_coast_log1p",
+      "dist_refwater_log1p",
+      "landcover_group"
+    ],
+    "terrain_soil": [
+      "elevation_m",
+      "slope_deg",
+      "flowacc_log10",
+      "twi",
+      "hand_log1p",
+      "dist_coast_log1p",
+      "dist_refwater_log1p",
+      "landcover_group",
+      "sm_surface_m3m3",
+      "sm_rootzone_m3m3"
+    ],
+    "terrain_soil_rain": [
+      "elevation_m",
+      "slope_deg",
+      "flowacc_log10",
+      "twi",
+      "hand_log1p",
+      "dist_coast_log1p",
+      "dist_refwater_log1p",
+      "landcover_group",
+      "sm_surface_m3m3",
+      "sm_rootzone_m3m3",
+      "rain_antecedent_7d_mm",
+      "rain_event_24h_mm",
+      "rain_event_max30_mmhr"
+    ]
+  },
+  "target": "label",
+  "id_columns": [
+    "cell_id",
+    "event_id",
+    "year",
+    "block_id",
+    "block_5km",
+    "block_10km",
+    "x",
+    "y",
+    "lon",
+    "lat"
+  ]
+}
